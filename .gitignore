@@ -1,0 +1,9 @@
+# Local tooling
+.tools/
+
+# Keep only the compressed web video; ignore originals and duplicates
+videos/*
+!videos/intro.mp4
+
+# OS files
+.DS_Store
