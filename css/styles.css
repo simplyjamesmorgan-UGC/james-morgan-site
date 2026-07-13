@@ -135,6 +135,13 @@ ul {
   transform: translateY(0);
 }
 
+/* Always show header + hero — site must not depend on JavaScript */
+.site-header,
+#hero .reveal {
+  opacity: 1;
+  transform: none;
+}
+
 
 /* ============================================================
    SITE HEADER
