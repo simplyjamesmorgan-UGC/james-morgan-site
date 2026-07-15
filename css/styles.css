@@ -405,7 +405,7 @@ ul {
 
 .intro.section {
   padding-top: clamp(48px, 8vw, 80px);
-  padding-bottom: clamp(24px, 4vw, 40px);
+  padding-bottom: clamp(16px, 3vw, 24px);
 }
 
 .intro-video {
@@ -422,6 +422,46 @@ ul {
   aspect-ratio: 16 / 9;
   background-color: var(--navy);
   border: 1px solid rgba(4, 20, 46, 0.08);
+}
+
+
+/* ============================================================
+   SAMPLE WORK VIDEOS
+   ============================================================ */
+
+.work-videos.section {
+  padding-top: clamp(16px, 3vw, 24px);
+  padding-bottom: clamp(48px, 8vw, 80px);
+}
+
+.work-videos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(24px, 4vw, 40px);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.work-video {
+  text-align: center;
+}
+
+.work-video-player {
+  width: 100%;
+  display: block;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background-color: var(--navy);
+  border: 1px solid rgba(4, 20, 46, 0.08);
+}
+
+.work-video-label {
+  margin-top: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
 }
 
 
@@ -689,6 +729,11 @@ ul {
   .hero-rotator-text {
     font-size: clamp(0.9375rem, 3.8vw, 1.25rem);
     letter-spacing: 0.12em;
+  }
+
+  .work-videos-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
   }
 
 }
