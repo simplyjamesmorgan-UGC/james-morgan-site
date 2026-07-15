@@ -431,7 +431,7 @@ ul {
 
 .work-videos.section {
   padding-top: clamp(16px, 3vw, 24px);
-  padding-bottom: clamp(48px, 8vw, 80px);
+  padding-bottom: clamp(16px, 3vw, 24px);
 }
 
 .work-videos-grid {
@@ -482,6 +482,7 @@ ul {
    ============================================================ */
 
 .why.section {
+  padding-top: clamp(24px, 4vw, 40px);
   padding-bottom: clamp(24px, 4vw, 40px);
 }
 
