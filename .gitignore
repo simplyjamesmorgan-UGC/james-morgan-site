@@ -6,6 +6,7 @@ videos/*
 !videos/intro.mp4
 !videos/cantu-site.mp4
 !videos/headphones-site.mp4
+!videos/pizza-site.mp4
 
 # OS files
 .DS_Store
