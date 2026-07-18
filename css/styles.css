@@ -305,24 +305,6 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-self: stretch;
-  position: relative;
-  overflow: hidden;
-}
-
-/* Soft fade on the left — blends the photo's empty space into the white hero */
-.hero-portrait::after {
-  content: '';
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 30%;
-  background: linear-gradient(
-    to right,
-    var(--white) 0%,
-    rgba(255, 255, 255, 0.9) 30%,
-    transparent 100%
-  );
-  pointer-events: none;
-  z-index: 1;
 }
 
 .hero-portrait-image {
@@ -675,10 +657,6 @@ ul {
   .hero-portrait-image {
     margin-left: 0;
     max-width: 420px;
-  }
-
-  .hero-portrait::after {
-    width: 24%;
   }
 
   .philosophy-inner {
